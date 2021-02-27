@@ -4,6 +4,7 @@ graft_loop.py
 Description:    Follows on from FREAD but is a simpler, loop grafting method
 Jun 23, 2016
 """
+from __future__ import print_function
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 import sys, os, json, re, datetime, pickle, math
 import numpy as np
